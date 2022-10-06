@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tJk7rEZyPvJuiFcj5ZjRc0gCJ3tEcYcNfdOFLixykOTFDolaCJzTebwguwN7LuHYZUxMl1liDLZ1zklNY2ZrYQ==",
+  "dgSpecHash": "tgvwyaljnUrfb4LK1AO8qlmgVCCFW+KImwg2ZyJVtyuhsFWxN4javobgKtmTx9XqguSiRfdhU3ZbBbFl5q0U8A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lords\\OneDrive\\Desktop\\WebAppCRUD1-2\\WebAppCRUD1.csproj",
+  "projectFilePath": "C:\\Users\\lords\\OneDrive\\Documents\\GitHub\\ProyectoIntegradorIEPAM\\WebAppCRUD1-2\\WebAppCRUD1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lords\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\lords\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

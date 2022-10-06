@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lords\\OneDrive\\Desktop\\WebAppCRUD1-2\\WebAppCRUD1.csproj": {}
+    "C:\\Users\\lords\\OneDrive\\Documents\\GitHub\\ProyectoIntegradorIEPAM\\WebAppCRUD1-2\\WebAppCRUD1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lords\\OneDrive\\Desktop\\WebAppCRUD1-2\\WebAppCRUD1.csproj": {
+    "C:\\Users\\lords\\OneDrive\\Documents\\GitHub\\ProyectoIntegradorIEPAM\\WebAppCRUD1-2\\WebAppCRUD1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lords\\OneDrive\\Desktop\\WebAppCRUD1-2\\WebAppCRUD1.csproj",
+        "projectUniqueName": "C:\\Users\\lords\\OneDrive\\Documents\\GitHub\\ProyectoIntegradorIEPAM\\WebAppCRUD1-2\\WebAppCRUD1.csproj",
         "projectName": "WebAppCRUD1",
-        "projectPath": "C:\\Users\\lords\\OneDrive\\Desktop\\WebAppCRUD1-2\\WebAppCRUD1.csproj",
+        "projectPath": "C:\\Users\\lords\\OneDrive\\Documents\\GitHub\\ProyectoIntegradorIEPAM\\WebAppCRUD1-2\\WebAppCRUD1.csproj",
         "packagesPath": "C:\\Users\\lords\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lords\\OneDrive\\Desktop\\WebAppCRUD1-2\\obj\\",
+        "outputPath": "C:\\Users\\lords\\OneDrive\\Documents\\GitHub\\ProyectoIntegradorIEPAM\\WebAppCRUD1-2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lords\\AppData\\Roaming\\NuGet\\NuGet.Config",
