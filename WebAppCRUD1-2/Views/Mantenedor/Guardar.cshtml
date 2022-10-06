@@ -1,0 +1,33 @@
+﻿@model AlumnoModel
+@{
+    ViewData["Title"] = "Guardar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@Html.ValidationSummary(false, "", new { @class = "text-danger" });
+
+<h1>Guardar</h1>
+
+<div class="card" style="width:100%">
+    <div class="card-body">
+        <form asp-action="Guardar" asp-controller="Mantenedor" method="post">
+            <div class="form-group">
+                <label for="IdAlumno">Id Alumno:</label>
+                <input asp-for="IdAlumno" type="text" class="form-control" id="txtIdAlumno">
+            </div>
+            <div class="form-group">
+                <label for="Nombre">Nombre:</label>
+                <input asp-for="Nombre" type="text" class="form-control" id="nombre">
+            </div>
+            <div class="form-check">
+                <label for="Ciudad">Ciudad:</label>
+                <input asp-for="Ciudad" type="text" class="form-control" id="txtCiudad">
+            </div>
+            <div class="form-check">
+                <label for="Edad">Edad:</label>
+                <input asp-for="Edad" type="text" class="form-control" id="txtEdad">
+            </div>
+            <button type="submit" class="btn btn-primary">Guardar</button>
+        </form>
+    </div>
+</div>
+
