@@ -23,7 +23,7 @@ namespace WebAppCRUD1.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Cursos()
         {
             return View();
         }

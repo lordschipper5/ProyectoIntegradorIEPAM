@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WebAppCRUD1.Controllers
 {
-    public class LoginController : Controller
+    public class CursosController : Controller
     {
         public IActionResult Index()
         {
@@ -22,7 +22,13 @@ namespace WebAppCRUD1.Controllers
         {
             return View();
         }
+
         public IActionResult Cursos()
+        {
+            return View();
+        }
+
+        public IActionResult ContenidoCursos()
         {
             return View();
         }

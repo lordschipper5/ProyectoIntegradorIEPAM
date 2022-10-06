@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - WebAppCRUD1</title>
+    <title>@ViewData["Title"] - IEPAM Proyect +</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
@@ -12,7 +12,9 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">WebAppCRUD1</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="data:image/jpeg;base64,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" alt="IEPAM" style="width:50%; height:50%">
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -20,10 +22,16 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Cursos" asp-action="Cursos">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Login">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Registrar">Registrar</a>
                         </li>
                     </ul>
                 </div>
