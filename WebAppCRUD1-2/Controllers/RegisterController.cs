@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WebAppCRUD1.Controllers
 {
-    public class LoginController : Controller
+    public class RegisterController : Controller
     {
         public IActionResult Index()
         {
