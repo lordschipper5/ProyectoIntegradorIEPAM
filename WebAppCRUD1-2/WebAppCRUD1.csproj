@@ -20,6 +20,13 @@
     <Folder Include="Views\images\" />
     <Folder Include="Views\Register\" />
     <Folder Include="wwwroot\images\" />
+    <Folder Include="Views\Equipo\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Views\Equipo\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Equipo\Equipo5.cshtml" />
+  </ItemGroup>
 </Project>

@@ -5,323 +5,52 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap">
+<link rel="stylesheet" href="style4.css" />
+<link rel="icon" href="images/NL.png">
 
-  
-    <style>
+<div class="header">
+    <h2> <p style="color: white;"> DESAROLLO DE VIDEOJUEGOS</p></h2>
 
-        .dark {
-            background: #110f16;
-        }
+</div>
 
-        .light {
-            background: #f3f5f7;
-        }
+<div class="row">
+    <div class="leftcolumn">
+        <div class="card">
+            <h2>¿Que es Unity?</h2>
+            <h5>En esta seccion aprenderas de los que es la herramienta de Unity.(14,10,2022)</h5>
 
-        a,
-        a:hover {
-            text-decoration: none;
-            transition: color 0.3s ease-in-out;
-        }
-        #pageHeaderTitle {
-            margin: 2rem 0;
-            text-transform: uppercase;
-            text-align: center;
-            font-size: 2.5rem;
-        }
-
-        /* Cards */
-        .postcard {
-          flex-wrap: wrap;
-          display: flex;
-          box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
-          border-radius: 10px;
-          margin: 0 0 2rem 0;
-          overflow: hidden;
-          position: relative;
-          color: #ffffff;
-        }
-        .postcard.dark {
-          background-color: #18151f;
-        }
-        .postcard.light {
-          background-color: #e1e5ea;
-        }
-        .postcard .t-dark {
-          color: #18151f;
-        }
-        .postcard a {
-          color: inherit;
-        }
-        .postcard h1,
-        .postcard .h1 {
-          margin-bottom: 0.5rem;
-          font-weight: 500;
-          line-height: 1.2;
-        }
-        .postcard .small {
-          font-size: 80%;
-        }
-        .postcard .postcard__title {
-          font-size: 1.75rem;
-        }
-        .postcard .postcard__img {
-          max-height: 180px;
-          width: 100%;
-          object-fit: cover;
-          position: relative;
-        }
-        .postcard .postcard__img_link {
-          display: contents;
-        }
-        .postcard .postcard__bar {
-          width: 50px;
-          height: 10px;
-          margin: 10px 0;
-          border-radius: 5px;
-          background-color: #424242;
-          transition: width 0.2s ease;
-        }
-        .postcard .postcard__text {
-          padding: 1.5rem;
-          position: relative;
-          display: flex;
-          flex-direction: column;
-        }
-        .postcard .postcard__preview-txt {
-          overflow: hidden;
-          text-overflow: ellipsis;
-          text-align: justify;
-          height: 100%;
-        }
-        .postcard .postcard__tagbox {
-          display: flex;
-          flex-flow: row wrap;
-          font-size: 14px;
-          margin: 20px 0 0 0;
-          padding: 0;
-          justify-content: center;
-        }
-        .postcard .postcard_tagbox .tag_item {
-          display: inline-block;
-          background: rgba(83, 83, 83, 0.4);
-          border-radius: 3px;
-          padding: 2.5px 10px;
-          margin: 0 5px 5px 0;
-          cursor: default;
-          user-select: none;
-          transition: background-color 0.3s;
-        }
-        .postcard .postcard_tagbox .tag_item:hover {
-          background: rgba(83, 83, 83, 0.8);
-        }
-        .postcard:before {
-          content: "";
-          position: absolute;
-          top: 0;
-          right: 0;
-          bottom: 0;
-          left: 0;
-          background-image: linear-gradient(-70deg, #424242, transparent 50%);
-          opacity: 1;
-          border-radius: 10px;
-        }
-        .postcard:hover .postcard__bar {
-          width: 100px;
-        }
-
-          .postcard .postcard__title {
-            font-size: 2rem;
-          }
-          .postcard .postcard__tagbox {
-            justify-content: start;
-          }
-          .postcard .postcard__img {
-            max-width: 300px;
-            max-height: 100%;
-            transition: transform 0.3s ease;
-          }
-          .postcard .postcard__text {
-            padding: 3rem;
-            width: 100%;
-          }
-          .postcard .media.postcard__text:before {
-            content: "";
-            position: absolute;
-            display: block;
-            background: #18151f;
-            top: -20%;
-            height: 130%;
-            width: 55px;
-          }
-          .postcard:hover .postcard__img {
-            transform: scale(1.1);
-          }
-          .postcard:nth-child(2n+1) {
-            flex-direction: row;
-          }
-          .postcard:nth-child(2n+0) {
-            flex-direction: row-reverse;
-          }
-          .postcard:nth-child(2n+1) .postcard__text::before {
-            left: -12px !important;
-            transform: rotate(4deg);
-          }
-          .postcard:nth-child(2n+0) .postcard__text::before {
-            right: -12px !important;
-            transform: rotate(-4deg);
-          }
-        
-
-
-          .postcard__text:before {
-            content: "";
-            position: absolute;
-            display: block;
-            top: -20%;
-            height: 130%;
-            width: 55px;
-          }
-
-          .postcard.dark .postcard__text:before {
-            background: #18151f;
-          }
-
-          .postcard.light .postcard__text:before {
-            background: #e1e5ea;
-          }
-        
-        /* COLORS */
-        .postcard .postcard__tagbox .green.play:hover {
-          background: #79dd09;
-          color: black;
-        }
-
-        .green .postcard__title:hover {
-          color: #79dd09;
-        }
-
-        .green .postcard__bar {
-          background-color: #79dd09;
-        }
-
-        .green::before {
-          background-image: linear-gradient(-30deg, rgba(121, 221, 9, 0.1), transparent 50%);
-        }
-
-        .green:nth-child(2n)::before {
-          background-image: linear-gradient(30deg, rgba(121, 221, 9, 0.1), transparent 50%);
-        }
-
-        .postcard .postcard__tagbox .blue.play:hover {
-          background: #0076bd;
-        }
-
-        .blue .postcard__title:hover {
-          color: #0076bd;
-        }
-
-        .blue .postcard__bar {
-          background-color: #0076bd;
-        }
-
-        .blue::before {
-          background-image: linear-gradient(-30deg, rgba(0, 118, 189, 0.1), transparent 50%);
-        }
-
-        .blue:nth-child(2n)::before {
-          background-image: linear-gradient(30deg, rgba(0, 118, 189, 0.1), transparent 50%);
-        }
-
-        .postcard .postcard__tagbox .red.play:hover {
-          background: #bd150b;
-        }
-
-        .red .postcard__title:hover {
-          color: #bd150b;
-        }
-
-        .red .postcard__bar {
-          background-color: #bd150b;
-        }
-
-        .red::before {
-          background-image: linear-gradient(-30deg, rgba(189, 21, 11, 0.1), transparent 50%);
-        }
-
-        .red:nth-child(2n)::before {
-          background-image: linear-gradient(30deg, rgba(189, 21, 11, 0.1), transparent 50%);
-        }
-
-        .postcard .postcard__tagbox .yellow.play:hover {
-          background: #bdbb49;
-          color: black;
-        }
-
-        .yellow .postcard__title:hover {
-          color: #bdbb49;
-        }
-
-        .yellow .postcard__bar {
-          background-color: #bdbb49;
-        }
-
-        .yellow::before {
-          background-image: linear-gradient(-30deg, rgba(189, 187, 73, 0.1), transparent 50%);
-        }
-
-        .yellow:nth-child(2n)::before {
-          background-image: linear-gradient(30deg, rgba(189, 187, 73, 0.1), transparent 50%);
-        }
-
-
-          .green:nth-child(2n)::before {
-            background-image: linear-gradient(80deg, rgba(121, 221, 9, 0.1), transparent 50%);
-          }
-
-          .blue::before {
-            background-image: linear-gradient(-80deg, rgba(0, 118, 189, 0.1), transparent 50%);
-          }
-
-          .blue:nth-child(2n)::before {
-            background-image: linear-gradient(80deg, rgba(0, 118, 189, 0.1), transparent 50%);
-          }
-
-          .red::before {
-            background-image: linear-gradient(-80deg, rgba(189, 21, 11, 0.1), transparent 50%);
-          }
-
-          .red:nth-child(2n)::before {
-            background-image: linear-gradient(80deg, rgba(189, 21, 11, 0.1), transparent 50%);
-          }
-
-          .yellow::before {
-            background-image: linear-gradient(-80deg, rgba(189, 187, 73, 0.1), transparent 50%);
-          }
-
-          .yellow:nth-child(2n)::before {
-            background-image: linear-gradient(80deg, rgba(189, 187, 73, 0.1), transparent 50%);
-          }
-        
-
-    </style>
-</head>
-
-<body>
-    <article class="postcard dark blue">
-        <div class="postcard__text">
-            <h2 class="postcard__title blue" style="color:white;"><a href="#">Curso Unity</a></h2>
-            <div class="postcard__subtitle small">
-                <time datetime="2020-05-25 12:00:00">
-                    <i class="fas fa-calendar-alt mr-2"></i>Domingo, 10/9/2022
-                </time>
-            </div>
-            <div class="postcard__bar"></div>
-            <div class="postcard__preview-txt">Unity es un motor de desarrollo para la creación de videojuegos que ofrece multitud de funcionalidades para desarrolladores, que también se ha utilizado en realidad virtual, en proyectos de Arquitectura y Diseño y además en la edición y previsualización de miniseries.</div>
+            <iframe width="420" height="315"
+                    src="https://www.youtube.com/embed/R-6q1GcE07o" frameborder="0" allowfullscreen>
+                >
+            </iframe>
+            </iframe>
+            <p>Some text..</p>
         </div>
-    </article>
-</body>
+        <div class="card">
+            <h2>¿Como empezar a hacer un videojuego? cap.1</h2>
+            <h5>Primeros pasos para la creacion de un videojuego. (14,10,2022)</h5>
+            <iframe width="420" height="315"
+                    src="https://www.youtube.com/embed/DB8DzSIqOHY" frameborder="0" allowfullscreen>
+                >
+            </iframe>
 
+
+            <p>Some text..</p>
+        </div>
+    </div>
+    <div class="rightcolumn">
+        <div class="card">
+            <h2>UNITY</h2>
+            <img src="images/unity.png" width="300"
+                 height="250">
+        </div>
+        <div class="card">
+            <h3>Contenido Importante: </h3>
+            <div class="fakeimg">Image "</div> <br>
+            <div class="fakeimg">Image</div><br>
+            <div class="fakeimg">Image</div>
+        </div>
+    </div>
+</div>
+
+</div>
