@@ -18,7 +18,6 @@
 
   <ItemGroup>
     <Folder Include="Views\images\" />
-    <Folder Include="Views\Register\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="Views\Equipo\" />
   </ItemGroup>
