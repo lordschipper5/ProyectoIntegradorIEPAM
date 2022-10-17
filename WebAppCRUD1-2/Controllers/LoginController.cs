@@ -13,16 +13,21 @@ namespace WebAppCRUD1.Controllers
             return View();
         }
 
-        public IActionResult Register()
-        {
-            return View();
-        }
-
         public IActionResult Login()
         {
             return View();
         }
         public IActionResult Cursos()
+        {
+            return View();
+        }
+
+        public IActionResult Equipo()
+        {
+            return View();
+        }
+
+        public IActionResult Contacto()
         {
             return View();
         }
