@@ -50,7 +50,7 @@ namespace WebAppCRUD1
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Cursos}/{action=Cursos}");
+                    pattern: "{controller=Home}/{action=Index}");
             });
         }
     }
