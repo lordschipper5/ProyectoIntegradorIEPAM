@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace WebAppCRUD1.Controllers
 {
-    public class RegisterController : Controller
+    public class EquipoController : Controller
     {
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult Register()
+        public IActionResult Equipo()
         {
             return View();
         }

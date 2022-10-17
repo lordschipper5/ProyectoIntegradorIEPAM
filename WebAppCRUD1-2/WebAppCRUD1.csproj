@@ -19,14 +19,9 @@
   <ItemGroup>
     <Folder Include="Views\images\" />
     <Folder Include="wwwroot\images\" />
-    <Folder Include="Views\Equipo\" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="Views\Equipo\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Remove="Views\Equipo\Equipo5.cshtml" />
-    <Content Remove="Views\Equipo\Equipo.cshtml" />
   </ItemGroup>
 </Project>
