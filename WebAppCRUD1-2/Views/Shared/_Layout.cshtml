@@ -6,7 +6,7 @@
     <title>@ViewData["Title"] - IEPAM Proyect +</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link href="~/css/style.css" rel="stylesheet" />
+    <link href="~/css/style.css" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
@@ -14,33 +14,29 @@
 </head>
 <body>
     <header>
-        <nav class="header">
-            <div class="container">
-                <div>
-                    <nav>
-                        <div class="nav-links">
-                            <ul>
-                                <li>
-                                    <a asp-area="" asp-controller="Home" asp-action="Index">Menu</a>
-                                </li>
-                                <li>
-                                    <a asp-area="" asp-controller="Cursos" asp-action="Cursos">Cursos</a>
-                                </li>
-                                <li>
-                                    <a asp-area="" asp-controller="Login" asp-action="Login">Login</a>
-                                </li>
-                                <li>
-                                    <a asp-area="" asp-controller="Register" asp-action="Register">Registrar</a>
-                                </li>
-                                <li>
-                                    <a asp-area="" asp-controller="Register" asp-action="Register">Equipo</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
+        <section style="width: 100%; background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(images/banner01.jpg); background-position: center; background-size: cover; position: relative; min-height:40px; ">
+            <nav>
+                <div class="nav-links">
+                    <ul>
+                        <li>
+                            <a asp-area="" asp-controller="Home" asp-action="Index">Menu</a>
+                        </li>
+                        <li>
+                            <a asp-area="" asp-controller="Cursos" asp-action="Cursos">Cursos</a>
+                        </li>
+                        <li>
+                            <a asp-area="" asp-controller="Login" asp-action="Login">Login</a>
+                        </li>
+                        <li>
+                            <a asp-area="" asp-controller="Register" asp-action="Register">Registrar</a>
+                        </li>
+                        <li>
+                            <a asp-area="" asp-controller="Register" asp-action="Register">Equipo</a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </section>
     </header>
     <div class="container">
         <main role="main" class="pb-3">            
