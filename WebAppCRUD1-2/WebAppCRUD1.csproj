@@ -19,9 +19,14 @@
   <ItemGroup>
     <Folder Include="Views\images\" />
     <Folder Include="wwwroot\images\" />
+    <Folder Include="Views\Conacto\" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="Views\Equipo\" />
+    <None Remove="Views\Conacto\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Conacto\Contacto.cshtml" />
   </ItemGroup>
 </Project>
