@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{C486A7FE-2B43-4E09-B50B-95995CB862FF}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.WebAppCRUD1 PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Cursos/Cursos.cshtml">
+    <Files>
+      <File FileName="Views/Shared/_Layout.cshtml" Line="1" Column="1" IsPinned="True" />
+      <File FileName="Views/Login/Login.cshtml" Line="18" Column="8" />
+      <File FileName="Views/Home/Index.cshtml" Line="7" Column="7" />
+      <File FileName="Views/Cursos/ContenidoCursos.cshtml" Line="54" Column="1" />
+      <File FileName="Views/Equipo/EmptyTextFile.txt" Line="33" Column="37" />
+      <File FileName="Views/Cursos/Cursos.cshtml" Line="17" Column="7" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebAppCRUD1" expanded="True">
+            <Node name="WebAppCRUD1" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="Cursos" expanded="True" />
+                <Node name="Equipo" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+</Properties>
