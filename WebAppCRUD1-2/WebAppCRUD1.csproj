@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Conacto\**" />
+    <Content Remove="Views\Conacto\**" />
+    <EmbeddedResource Remove="Views\Conacto\**" />
+    <None Remove="Views\Conacto\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
     <PackageReference Include="Npgsql" Version="6.0.7" />
     <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="6.0.1" />
@@ -19,14 +26,10 @@
   <ItemGroup>
     <Folder Include="Views\images\" />
     <Folder Include="wwwroot\images\" />
-    <Folder Include="Views\Conacto\" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="Views\Equipo\" />
     <None Remove="Views\Conacto\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Remove="Views\Conacto\Contacto.cshtml" />
   </ItemGroup>
 </Project>

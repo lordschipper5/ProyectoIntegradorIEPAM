@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 /*namespace WebAppCRUD1.Datos
 {
-    public class AlumnoDatos
+    public class UserDatos
     {
         public List<AlumnoModel> Listar()
         {

@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace WebAppCRUD1.Models
 {
-    public class AlumnoModel
+    public class UserModel
     {
         [Required(ErrorMessage ="El IdAlumno es requerido")]
         public int IdAlumno { get; set; }

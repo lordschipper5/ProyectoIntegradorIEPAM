@@ -556,3 +556,4 @@ C:\Users\lords\OneDrive\Documents\GitHub\ProyectoIntegradorIEPAM\WebAppCRUD1-2\o
 C:\Users\lords\OneDrive\Documents\GitHub\ProyectoIntegradorIEPAM\WebAppCRUD1-2\obj\Debug\netcoreapp3.1\WebAppCRUD1.genruntimeconfig.cache
 C:\Users\lords\OneDrive\Documents\GitHub\ProyectoIntegradorIEPAM\WebAppCRUD1-2\obj\Debug\netcoreapp3.1\Razor\Views\Equipo\Equipo.cshtml.g.cs
 C:\Users\lords\OneDrive\Documents\GitHub\ProyectoIntegradorIEPAM\WebAppCRUD1-2\obj\Debug\netcoreapp3.1\Razor\Views\Equipo\Equipo5.cshtml.g.cs
+C:\Users\lords\OneDrive\Documents\GitHub\ProyectoIntegradorIEPAM\WebAppCRUD1-2\obj\Debug\netcoreapp3.1\Razor\Views\Contacto\Contacto.cshtml.g.cs
