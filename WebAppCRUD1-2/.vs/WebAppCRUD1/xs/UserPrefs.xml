@@ -1,33 +1,38 @@
 ﻿<Properties StartupConfiguration="{C486A7FE-2B43-4E09-B50B-95995CB862FF}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.WebAppCRUD1 PreferredExecutionTarget="/Applications/Brave Browser.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WebAppCRUD1 PreferredExecutionTarget="/Applications/Brave Browser.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Equipo/Equipo.cshtml">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Cursos/ContenidoCursos.cshtml">
     <Files>
-      <File FileName="Views/Shared/_Layout.cshtml" Line="47" Column="26" />
-      <File FileName="Views/Contacto/Contacto.cshtml" Line="51" Column="9" />
-      <File FileName="wwwroot/css/style.css" Line="8" Column="23" />
-      <File FileName="wwwroot/css/style3.css" Line="1" Column="1" />
-      <File FileName="Views/Equipo/Equipo.cshtml" Line="15" Column="7" />
+      <File FileName="Models/CursosModel.cs" Line="21" Column="1" />
+      <File FileName="Views/Cursos/Cursos.cshtml" Line="41" Column="41" />
+      <File FileName="Views/Cursos/ContenidoCursos.cshtml" Line="13" Column="97" />
+      <File FileName="Views/Login/Login.cshtml" Line="81" Column="24" />
+      <File FileName="Controllers/HomeController.cs" Line="21" Column="9" />
+      <File FileName="Models/UserModel.cs" Line="1" Column="1" />
+      <File FileName="Controllers/CursosController.cs" Line="37" Column="27" />
+      <File FileName="wwwroot/css/style4.css" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WebAppCRUD1" expanded="True">
             <Node name="WebAppCRUD1" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Datos" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Contacto" expanded="True" />
                 <Node name="Cursos" expanded="True" />
-                <Node name="Equipo" expanded="True">
-                  <Node name="Equipo.cshtml" selected="True" />
-                </Node>
-                <Node name="Home" expanded="True" />
                 <Node name="Login" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="Mantenedor" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
+                <Node name="images" expanded="True" />
                 <Node name="js" expanded="True" />
               </Node>
             </Node>
@@ -39,7 +44,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
