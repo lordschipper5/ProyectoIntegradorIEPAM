@@ -135,7 +135,6 @@ form {
 .btn {
     width: 150px;
     background-color: #5c068c;
-    ;
     border: none;
     outline: none;
     height: 49px;
@@ -150,7 +149,6 @@ form {
 
     .btn:hover {
         background-color: #5c068c;
-        ;
     }
 
 .panels-container {
