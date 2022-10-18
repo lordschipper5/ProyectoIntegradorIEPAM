@@ -125,7 +125,7 @@ namespace WebAppCRUD1.Datos
             return band;
         }
 
-        public int valiadmin(string lg_email, string lg_passw, bool lg_vali)
+        public int Valiadmin(string lg_email, string lg_passw, bool lg_vali)
         {
             int band = 0;
             var cn = new Conexion();

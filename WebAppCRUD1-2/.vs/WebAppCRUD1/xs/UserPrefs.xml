@@ -6,16 +6,25 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Cursos/ContenidoCursos.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/MantenedorController.cs">
     <Files>
       <File FileName="Models/CursosModel.cs" Line="21" Column="1" />
       <File FileName="Views/Cursos/Cursos.cshtml" Line="41" Column="41" />
       <File FileName="Views/Cursos/ContenidoCursos.cshtml" Line="13" Column="97" />
-      <File FileName="Views/Login/Login.cshtml" Line="81" Column="24" />
-      <File FileName="Controllers/HomeController.cs" Line="21" Column="9" />
-      <File FileName="Models/UserModel.cs" Line="1" Column="1" />
-      <File FileName="Controllers/CursosController.cs" Line="37" Column="27" />
-      <File FileName="wwwroot/css/style4.css" Line="1" Column="1" />
+      <File FileName="Views/Login/Login.cshtml" Line="33" Column="127" />
+      <File FileName="Controllers/HomeController.cs" Line="9" Column="1" />
+      <File FileName="Controllers/CursosController.cs" Line="40" Column="2" />
+      <File FileName="Models/UsuarioModel.cs" Line="21" Column="1" />
+      <File FileName="Controllers/LoginController.cs" Line="47" Column="19" />
+      <File FileName="Controllers/MantenedorController.cs" Line="38" Column="14" />
+      <File FileName="Datos/UserDatos.cs" Line="147" Column="24" />
+      <File FileName="Views/Mantenedor/Guardar.cshtml" Line="78" Column="42" />
+      <File FileName="Views/Mantenedor/Listar.cshtml" Line="15" Column="42" />
+      <File FileName="Models/UserModel.cs" Line="33" Column="38" />
+      <File FileName="Views/Mantenedor/Editar.cshtml" Line="35" Column="19" />
+      <File FileName="Views/Mantenedor/Eliminar.cshtml" Line="22" Column="11" />
+      <File FileName="Views/Mantenedor/Guardar (copy).cshtml" Line="25" Column="20" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="42" Column="19" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,14 +35,8 @@
               <Node name="Datos" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Cursos" expanded="True" />
                 <Node name="Login" expanded="True" />
-                <Node name="Mantenedor" expanded="True" />
-              </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
-                <Node name="images" expanded="True" />
-                <Node name="js" expanded="True" />
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>

@@ -23,12 +23,12 @@ namespace WebAppCRUD1.Controllers
         }
 
 
-        public IActionResult valiadmin(UsuarioModel oUsuario)
+        public IActionResult Valiadmin(UsuarioModel oUsuario)
         {
             if (!ModelState.IsValid)
                 return RedirectToAction("Login", "Login");
 
-            var admin_vali = alumnodatos.valiadmin(oUsuario.email, oUsuario.passw, oUsuario.vali);
+            var admin_vali = alumnodatos.Valiadmin(oUsuario.email, oUsuario.passw, oUsuario.vali);
 
             if (admin_vali == 1)
             {
@@ -38,7 +38,6 @@ namespace WebAppCRUD1.Controllers
             {
                 return RedirectToAction("Login", "Login");
             }
-
         }
 
         public IActionResult Validar(UsuarioModel oUsuario)
