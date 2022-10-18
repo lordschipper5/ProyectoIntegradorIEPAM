@@ -557,3 +557,5 @@ C:/Users/lords/OneDrive/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/o
 C:/Users/lords/OneDrive/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/WebAppCRUD1.dll
 C:/Users/lords/OneDrive/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/WebAppCRUD1.pdb
 C:/Users/lords/OneDrive/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/WebAppCRUD1.genruntimeconfig.cache
+C:\Users\andre\Source\Repos\ProyectoIntegradorIEPAM\WebAppCRUD1-2\obj\Debug\netcoreapp3.1\WebAppCRUD1.dll
+C:\Users\andre\Source\Repos\ProyectoIntegradorIEPAM\WebAppCRUD1-2\obj\Debug\netcoreapp3.1\WebAppCRUD1.pdb
