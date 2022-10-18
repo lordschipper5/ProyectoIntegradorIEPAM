@@ -5,94 +5,105 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<link href="~/css/style3.css" rel="stylesheet" />
-<link rel="icon" href="images/NL.png">
-<div class="courses-container">
-    <div class="course">
-        <div class="course-preview">
-            <h6>Curso</h6>
-            <h2>DESAROLLO DE VIDEOJUEGOS</h2>
-            <a href="#">Ver Todos los Capitulos <i class="fas fa-chevron-right"></i></a>
-        </div>
-        <div class="course-info">
-            <div class="progress-container">
-                <div class="progress"></div>
-                <span class="progress-text">
-                    0/9 Challenges
-                </span>
+<html lang="en">
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/64d58efce2.js"
+            crossorigin="anonymous"></script>
+    <link rel="icon" href="https://nuevoleon.travel/wp-content/uploads/2019/11/ImagoNLE-700x582.png">
+    <link href="~/css/style3.css" rel="stylesheet" />
+    <link href="~/css/style.css" rel="stylesheet" />
+    <title>Sign in & Sign up Form</title>
+</head>
+
+<body>
+    <div class="atracito" style="background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(https://i.blogs.es/88e43c/captura-de-pantalla-2021-10-20-a-las-9.39.51/1366_2000.webp); display: flex; align-items: center; justify-content: center; flex-direction: column; min-height: 100vh; margin: 0; background-size: cover;">
+        <div class="courses-container">
+            <div class="course">
+                <div class="course-preview">
+                    <h6>Curso</h6>
+                    <h2>DESAROLLO DE VIDEOJUEGOS</h2>
+                    <a href="#">Ver Todos los Capitulos <i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="course-info">
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                        <span class="progress-text">
+                            0/9 Challenges
+                        </span>
+                    </div>
+                    <h6>Capitulo 1</h6>
+                    <h2>¿Que es UNITY?</h2>
+                    <button class="btn" href="contenidoCurso.html">Empezar</button>
+                </div>
             </div>
-            <h6>Capitulo 1</h6>
-            <h2>¿Que es UNITY?</h2>
-            <button class="btn" href="contenidoCurso.html">Empezar</button>
         </div>
-    </div>
-</div>
-
-<div id="demo" class="course">
-    <div class="course-preview">
-        <h6>Curso Nuevo</h6>
-        <h2>[Agrega Nombre del Curso]</h2>
-        <a href="#">Ver Todos los Capitulos <i class="fas fa-chevron-right"></i></a>
-    </div>
-    <div class="course-info">
-        <div class="progress-container">
-            <div class="progress"></div>
-            <span class="progress-text">
-                0/9 Challenges
-            </span>
+        <div id="demo" class="course">
+            <div class="course-preview">
+                <h6>Curso Nuevo</h6>
+                <h2>[Agrega Nombre del Curso]</h2>
+                <a href="#">Ver Todos los Capitulos <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="course-info">
+                <div class="progress-container">
+                    <div class="progress"></div>
+                    <span class="progress-text">
+                        0/9 Challenges
+                    </span>
+                </div>
+                <h6>Capitulo 1</h6>
+                <h2>[Inserta Nombre del Capitulo]</h2>
+                <button class="btn" href="contenidoCurso2.html">Empezar</button>
+            </div>
         </div>
-        <h6>Capitulo 1</h6>
-        <h2>[Inserta Nombre del Capitulo]</h2>
-        <button class="btn" href="contenidoCurso2.html">Empezar</button>
+        <button class="floating-btn" onclick="myFunction()">Agregar Curso</button>
+
+        <script>function myFunction() {
+                const node = document.getElementById("demo");
+                const clone = node.cloneNode(true);
+                document.body.appendChild(clone);
+            }</script>
+
+        <!-- SOCIAL PANEL HTML -->
+        <div class="social-panel-container">
+            <div class="social-panel">
+                <p>
+                    CREADO POR: <i class="fa fa-heart"></i> by
+                    <a target="_blank" href="https://florin-pop.com">EQUIPO 5</a>
+                </p>
+                <button class="close-btn"><i class="fas fa-times"></i></button>
+                <h4>Contactarnos</h4>
+                <ul>
+                    <li>
+                        <a href="" target="_blank">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script src="~/js/app.js"></script>
     </div>
-</div>
-
-
-<button class="floating-btn" onclick="myFunction()">Agregar Curso</button>
-
-<script>function myFunction() {
-  const node = document.getElementById("demo");
-  const clone = node.cloneNode(true);
-  document.body.appendChild(clone);
-}</script>
-
-<!-- SOCIAL PANEL HTML -->
-<div class="social-panel-container">
-    <div class="social-panel">
-        <p>
-            CREADO POR: <i class="fa fa-heart"></i> by
-            <a target="_blank" href="https://florin-pop.com">EQUIPO 5</a>
-        </p>
-        <button class="close-btn"><i class="fas fa-times"></i></button>
-        <h4>Contactarnos</h4>
-        <ul>
-            <li>
-                <a href="" target="_blank">
-                    <i class="fab fa-discord"></i>
-                </a>
-            </li>
-            <li>
-                <a href="" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </li>
-            <li>
-                <a href="" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-            </li>
-            <li>
-                <a href="" target="_blank">
-                    <i class="fab fa-facebook"></i>
-                </a>
-            </li>
-            <li>
-                <a href="" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
-
-<script src="~/js/app.js"></script>
+</body>
+</html>
