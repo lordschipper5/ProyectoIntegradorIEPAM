@@ -40,8 +40,7 @@ namespace WebAppCRUD1.Datos
         {
             bool flag = false;
             var con = new Conexion();
-
-            string spguardar = "CALL guardar_usuario (" + oAlumno.nombre + ",'" + oAlumno.apellidop + "','" + oAlumno.apellidom + "'," + oAlumno.edad + "'," + oAlumno.email + "'," + oAlumno.passw + ")";
+            string spguardar = "CALL guardar_usuario (" + "'" + oAlumno.nombre + "','" + oAlumno.apellidop + "','" + oAlumno.apellidom + "'," + oAlumno.edad + ",'" + oAlumno.email + "','" + oAlumno.passw + "'," + "TRUE" + ")";
             NpgsqlCommand com = new NpgsqlCommand(spguardar, con.OpenCon());
             com.ExecuteNonQuery();
             flag = true;

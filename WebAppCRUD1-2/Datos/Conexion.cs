@@ -14,7 +14,7 @@ namespace WebAppCRUD1.Datos
         static string bd = "Reto";
         static string user = "postgres";
         static string pass = "123456";
-        static string port = "5432";
+        static string port = "5433";
         string CadenaConexion = "server=" + servidor + ";port=" + port + ";user id=" + user + ";password=" + pass + ";database=" + bd + ";";
 
         public NpgsqlConnection OpenCon()

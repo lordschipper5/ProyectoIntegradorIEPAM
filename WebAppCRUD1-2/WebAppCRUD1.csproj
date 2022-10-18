@@ -9,6 +9,7 @@
     <Content Remove="Views\Conacto\**" />
     <EmbeddedResource Remove="Views\Conacto\**" />
     <None Remove="Views\Conacto\**" />
+    <None Remove="Views\Login\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,6 +27,7 @@
   <ItemGroup>
     <Folder Include="Views\images\" />
     <Folder Include="wwwroot\images\" />
+    <Folder Include="Views\Login\" />
   </ItemGroup>
 
   <ItemGroup>

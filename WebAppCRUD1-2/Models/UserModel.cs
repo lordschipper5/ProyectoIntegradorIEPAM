@@ -8,23 +8,26 @@ namespace WebAppCRUD1.Models
 {
     public class UserModel
     {  
-        [Required(ErrorMessage ="El Nombre del Alumno es requerido")]
+        [Required]
         public string nombre { get; set; }
 
-        [Required(ErrorMessage = "Pon tu Apellido Paterno")]
+        [Required]
         public string apellidop { get; set; }
 
-        [Required(ErrorMessage = "Pon tu Apellido Materno")]
+        [Required]
         public string apellidom { get; set; }
 
-        [Required(ErrorMessage = "La edad es requerida y debe estar entre 18 y 99")]
+        [Required]
         [Range(18, 99)]
         public int edad { get; set; }
 
-        [Required(ErrorMessage = "Ingresa un email")]
-        public int email { get; set; }
+        [Required]
+        public string email { get; set; }
 
-        [Required(ErrorMessage = "Ingresa una contraseña")]
+        [Required]
         public string passw { get; set; }
+
+        [Required]
+        public bool vali { get; set; }
     }
 }

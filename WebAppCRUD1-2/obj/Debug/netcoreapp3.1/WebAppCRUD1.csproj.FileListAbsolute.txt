@@ -395,7 +395,6 @@ C:/Users/lords/OneDrive/Desktop/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/WebAppCRUD
 /Users/larome/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/Razor/Views/Cursos/ContenidoCursos.cshtml.g.cs
 /Users/larome/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/Razor/Views/Cursos/Cursos.cshtml.g.cs
 /Users/larome/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
-/Users/larome/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/Razor/Views/Login/Login.cshtml.g.cs
 /Users/larome/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/Razor/Views/Mantenedor/Editar.cshtml.g.cs
 /Users/larome/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/Razor/Views/Mantenedor/Eliminar.cshtml.g.cs
 /Users/larome/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/Razor/Views/Mantenedor/Guardar.cshtml.g.cs
@@ -557,3 +556,4 @@ C:/Users/lords/OneDrive/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/o
 C:/Users/lords/OneDrive/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/WebAppCRUD1.dll
 C:/Users/lords/OneDrive/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/WebAppCRUD1.pdb
 C:/Users/lords/OneDrive/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/WebAppCRUD1.genruntimeconfig.cache
+/Users/larome/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/Razor/Views/Login/Login.cshtml.g.cs

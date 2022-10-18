@@ -3,6 +3,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebAppCRUD1.Datos;
+using WebAppCRUD1.Models;
 
 namespace WebAppCRUD1.Controllers
 {
@@ -30,6 +32,22 @@ namespace WebAppCRUD1.Controllers
         public IActionResult Contacto()
         {
             return View();
+        }
+        UserDatos alumnodatos = new UserDatos();
+        public IActionResult Guardar(UserModel oAlumno)
+        {
+            if (!ModelState.IsValid)
+                return View();
+
+            var resp = alumnodatos.Guardar(oAlumno);
+            if (resp)
+            {
+                return RedirectToAction("Login");
+            }
+            else
+            {
+                return View();
+            }
         }
     }
 }
