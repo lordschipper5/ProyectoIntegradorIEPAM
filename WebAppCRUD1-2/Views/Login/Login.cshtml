@@ -1,4 +1,4 @@
-﻿@model UsuarioModel
+﻿@model UserModel
 @Html.ValidationSummary(false, "", new { @class = "text-danger" })
 @{
     ViewData["Title"] = "Guardar";
@@ -47,29 +47,39 @@
                     </a>
                 </div>
             </form>
+
             <form action="#" class="sign-up-form">
                 <h2 class="title">Registrate</h2>
                 <div class="input-field">
-                    <i class="fas fa-user"></i>
-                    <input type="text" placeholder="Usuario" />
+                    <i class="fas fa-id-badge "></i>
+                    <input asp-for="nombre" type="text" class="form-control" id="nombre" placeholder="Nombre">
                 </div>
                 <div class="input-field">
                     <i class="fas fa-id-badge "></i>
-                    <input type="text" placeholder="Nombre(s)" />
+                    <input asp-for="apellidop" type="text" class="form-control" id="apellidoP" placeholder="Apellido Paterno">
                 </div>
+
                 <div class="input-field">
                     <i class="fas fa-id-badge "></i>
-                    <input type="text" placeholder="Apellido Materno/Paterno" />
+                    <input asp-for="apellidom" type="text" class="form-control" id="apellidoM" placeholder="Apellido Materno">
                 </div>
+
+                <div class="input-field">
+                    <i class="fas fa-id-badge "></i>
+                    <input asp-for="edad" type="text" class="form-control" id="edad" placeholder="edad">
+                </div>
+
                 <div class="input-field">
                     <i class="fas fa-envelope"></i>
-                    <input type="email" placeholder="Correo" />
+                    <input asp-for="email" type="text" class="form-control" id="email" placeholder="email">
                 </div>
+
                 <div class="input-field">
                     <i class="fas fa-lock"></i>
-                    <input type="password" placeholder="Contraseña" />
+                    <input asp-for="passw" type="text" class="form-control" id="passw" placeholder="Contraseña">
                 </div>
-                <input type="submit" class="btn" value="Regístrate" />
+                <button type="submit" class="btn btn-primary">Guardar</button>
+                @*<input type="submit" class="btn" value="Regístrate" />*@
                 <p class="social-text">Regístrate Con Tus Redes Sociales</p>
                 <div class="social-media">
                     <a href="#" class="social-icon">

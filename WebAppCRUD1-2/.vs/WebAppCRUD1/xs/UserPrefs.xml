@@ -1,13 +1,15 @@
 ﻿<Properties StartupConfiguration="{C486A7FE-2B43-4E09-B50B-95995CB862FF}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.WebAppCRUD1 PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="wwwroot/css/style7.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Equipo/Equipo.cshtml">
     <Files>
       <File FileName="Views/Shared/_Layout.cshtml" Line="47" Column="26" />
-      <File FileName="wwwroot/css/style7.css" Line="27" Column="25" />
-      <File FileName="Views/Cursos/Cursos.cshtml" Line="19" Column="1" />
-      <File FileName="Views/Equipo/Equipo.cshtml" Line="19" Column="193" />
-      <File FileName="wwwroot/css/style3.css" Line="25" Column="48" />
-      <File FileName="Views/Login/Login.cshtml" Line="19" Column="7" />
+      <File FileName="Views/Contacto/Contacto.cshtml" Line="51" Column="9" />
+      <File FileName="wwwroot/css/style.css" Line="8" Column="23" />
+      <File FileName="wwwroot/css/style3.css" Line="1" Column="1" />
+      <File FileName="Views/Equipo/Equipo.cshtml" Line="15" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,8 +17,11 @@
           <Node name="WebAppCRUD1" expanded="True">
             <Node name="WebAppCRUD1" expanded="True">
               <Node name="Views" expanded="True">
+                <Node name="Contacto" expanded="True" />
                 <Node name="Cursos" expanded="True" />
-                <Node name="Equipo" expanded="True" />
+                <Node name="Equipo" expanded="True">
+                  <Node name="Equipo.cshtml" selected="True" />
+                </Node>
                 <Node name="Home" expanded="True" />
                 <Node name="Login" expanded="True" />
                 <Node name="Shared" expanded="True" />
@@ -34,9 +39,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.WebAppCRUD1 PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

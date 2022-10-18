@@ -4,14 +4,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-/*namespace WebAppCRUD1.Datos
+namespace WebAppCRUD1.Datos
 {
     public class Conexion
     {
         NpgsqlConnection conn = new NpgsqlConnection();
 
         static string servidor = "localhost";
-        static string bd = "bdescuela";
+        static string bd = "Reto";
         static string user = "postgres";
         static string pass = "123456";
         static string port = "5432";
@@ -43,4 +43,4 @@ using System.Threading.Tasks;
             }
         }
     }
-}*/
+}
