@@ -1,0 +1,28 @@
+﻿@model UserModel
+@{
+    ViewData["Title"] = "Insertar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@Html.ValidationSummary(false, "", new { @class = "text-danger" });
+
+<h1>Insertar Usuario</h1>
+
+    <div class="card" style="width:100%">
+        <div class="card-body">
+            <form asp-action="Insertar" asp-controller="Mantenedor" method="post">
+
+                <div class="form-check">
+
+                    <input asp-for="nombre" type="text" class="form-control" id="nombre" placeholder="Nombre">
+                    <input asp-for="apellidop" type="text" class="form-control" id="apellidoP" placeholder="Apellido Paterno">
+                    <input asp-for="apellidom" type="text" class="form-control" id="apellidoM" placeholder="Apellido Materno">
+                    <input asp-for="edad" type="text" class="form-control" id="edad" placeholder="Edad">
+                    <input asp-for="email" type="text" class="form-control" id="email" placeholder="Email">
+                    <input asp-for="passw" type="password" class="form-control" id="passw" placeholder="Contraseña">
+
+                </div>
+                <button type="submit" class="btn btn-primary">Guardar</button>
+            </form>
+        </div>
+    </div>
+

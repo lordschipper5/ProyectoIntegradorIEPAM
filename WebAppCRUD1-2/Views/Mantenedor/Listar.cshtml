@@ -4,34 +4,44 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-@*<h1>Listar</h1>
-<a asp-action="Guardar" asp-controller="Mantenedor" class="btn btn-success"><i class="bi bi-plus-square"></i> Insertar Alumno</a>
+<h1>Lista de Usuarios</h1>
+<a asp-action="Insertar" asp-controller="Mantenedor" class="btn btn-success"><i class="bi bi-plus-square"></i> Insertar Usuario</a>
 <div class="card" style="width:100%">
 
     <table>
         <thead class="btn-primary">
             <tr>
-                <th>Id Alumno</th>
-                <th>Nombre Completo</th>
-                <th>Ciudad</th>
-                <th>Edad</th>
+                <th>nombre</th>
+                <th>Apellido Paterno</th>
+                <th>Apellido Materno</th>
+                <th>edad</th>
+                <th>email</th>
+                <th>passw</th>
+                <th>vali</th>
+                <th>u_id</th>
                 <th>Editar</th>
                 <th>Eliminar</th>
+                
             </tr>
         </thead>
         <tbody>
             @foreach (var item in Model)
             {
                 <tr>
-                    <td> @item.IdAlumno  </td>
-                    <td> @item.Nombre </td>
-                    <td> @item.Ciudad </td>
-                    <td> @item.Edad </td>
-                    <td> <a asp-action="Editar" class="btn btn-secondary" asp-controller="Mantenedor" asp-route-IdAlumno="@item.IdAlumno "><i class="bi bi-pencil-square"></i> Editar</a> </td>
-                    <td> <a asp-action="Eliminar" class="btn btn-danger" asp-controller="Mantenedor" asp-route-IdAlumno="@item.IdAlumno "><i class="bi bi-x-square"></i> Eliminar</a> </td>
+                    <td> @item.nombre  </td>
+                    <td> @item.apellidop </td>
+                    <td> @item.apellidom </td>
+                    <td> @item.edad </td>
+                    <td> @item.email </td>
+                    <td> @item.passw </td>
+                    <td> @item.vali </td>
+                    <td> @item.u_id </td>
+
+                    <td> <a asp-action="Editar" class="btn btn-secondary" asp-controller="Mantenedor" asp-route-IdAlumno="@item.u_id "><i class="bi bi-pencil-square"></i> Editar</a> </td>
+                    <td> <a asp-action="Eliminar" class="btn btn-danger" asp-controller="Mantenedor" asp-route-IdAlumno="@item.u_id "><i class="bi bi-x-square"></i> Eliminar</a> </td>
                 </tr>
             }
         </tbody>
     </table>
-</div>*@
+</div>
 

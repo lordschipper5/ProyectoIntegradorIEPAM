@@ -33,21 +33,21 @@ namespace WebAppCRUD1.Controllers
         {
             return View();
         }
-        UserDatos alumnodatos = new UserDatos();
-        public IActionResult Guardar(UserModel oAlumno)
-        {
-            if (!ModelState.IsValid)
-                return View();
+        //UserDatos alumnodatos = new UserDatos();
+        //public IActionResult Guardar(UserModel oAlumno)
+        //{
+        //    if (!ModelState.IsValid)
+        //        return View();
 
-            var resp = alumnodatos.Guardar(oAlumno);
-            if (resp)
-            {
-                return RedirectToAction("Login");
-            }
-            else
-            {
-                return View();
-            }
-        }
+        //    var resp = alumnodatos.Guardar(oAlumno);
+        //    if (resp)
+        //    {
+        //        return RedirectToAction("Login");
+        //    }
+        //    else
+        //    {
+        //        return View();
+        //    }
+        //}
     }
 }

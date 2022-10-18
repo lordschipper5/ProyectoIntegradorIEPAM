@@ -29,5 +29,7 @@ namespace WebAppCRUD1.Models
 
         [Required]
         public bool vali { get; set; }
+
+        public int u_id { get; set; }
     }
 }

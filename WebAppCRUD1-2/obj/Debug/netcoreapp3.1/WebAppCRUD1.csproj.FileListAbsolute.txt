@@ -563,3 +563,4 @@ C:/Users/andre/Source/Repos/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netc
 C:/Users/andre/Source/Repos/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/WebAppCRUD1.pdb
 >>>>>>> a4dfb080db10609521dc2b26737a6a66e2ac9ddb
 C:/Users/lords/OneDrive/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/WebAppCRUD1.csproj.AssemblyReference.cache
+/Users/larome/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/Razor/Views/Mantenedor/Insertar.cshtml.g.cs

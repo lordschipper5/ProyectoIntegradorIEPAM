@@ -4,28 +4,41 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-@*<h1>Editar</h1>
+<h1>Editar</h1>
 
 <div class="card" style="width:100%">
     <div class="card-body">
         <form asp-action="Editar" asp-controller="Mantenedor" method="post">
             <div class="form-group">
-                <label for="IdAlumno">Id Alumno:</label>
-                <input asp-for="IdAlumno" type="text" class="form-control" id="txtIdAlumno" readonly>
+                <label for="nombre">nombre:</label>
+                <input asp-for="nombre" type="text" class="form-control" id="nombre">
             </div>
             <div class="form-group">
-                <label for="Nombre">Nombre:</label>
-                <input asp-for="Nombre" type="text" class="form-control" id="nombre">
+                <label for="apellidop">Apellido Paterno:</label>
+                <input asp-for="apellidop" type="text" class="form-control" id="apellidop">
             </div>
             <div class="form-check">
-                <label for="Ciudad">Ciudad:</label>
-                <input asp-for="Ciudad" type="text" class="form-control" id="txtCiudad">
+                <label for="apellidom">Apellido Materno:</label>
+                <input asp-for="apellidom" type="text" class="form-control" id="apellidom">
             </div>
             <div class="form-check">
-                <label for="Edad">Edad:</label>
-                <input asp-for="Edad" type="text" class="form-control" id="txtEdad">
+                <label for="edad">edad:</label>
+                <input asp-for="edad" type="text" class="form-control" id="edad">
             </div>
+            <div class="form-check">
+                <label for="email">email:</label>
+                <input asp-for="email" type="text" class="form-control" id="email">
+            </div>
+            <div class="form-check">
+                <label for="passw">Password:</label>
+                <input asp-for="passw" type="text" class="form-control" id="passw">
+            </div>
+            <div class="form-check">
+                <label for="u_id">Id:</label>
+                <input asp-for="u_id" type="text" class="form-control" id="u_id" readonly>
+            </div>
+
             <button type="submit" class="btn btn-primary">Guardar</button>
         </form>
     </div>
-</div>*@
+</div>

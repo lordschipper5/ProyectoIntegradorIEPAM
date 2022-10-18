@@ -26,7 +26,6 @@
         </div>
     </div>*@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,13 +45,13 @@
                 <h2 class="title">Iniciar Sesion</h2>
                 <div class="input-field">
                     <i class="fas fa-user"></i>
-                    <input type="text" placeholder="Usuario" />
+                    <input asp-for="email" class="form-control" id="email" type="text" placeholder="Email" />
                 </div>
                 <div class="input-field">
                     <i class="fas fa-lock"></i>
-                    <input type="password" placeholder="Contraseña" />
+                    <input asp-for="passw" class="form-control" id="passw" type="password" placeholder="Contraseña" />
                 </div>
-                <input type="submit" value="Iniciar Sesion" class="btn solid" />
+                <button asp-action="Validar" asp-controller="Mantenedor" type="submit" class="btn btn-primary">Enviar</button>
                 <p class="social-text"> Inicia Sesion Con Tus Redes Sociales</p>
                 <div class="social-media">
                     <a href="#" class="social-icon">
@@ -98,7 +97,7 @@
 
                 <div class="input-field">
                     <i class="fas fa-lock"></i>
-                    <input asp-for="passw" type="text" class="form-control" id="passw" placeholder="Contraseña">
+                    <input asp-for="passw" type="password" class="form-control" id="passw" placeholder="Contraseña">
                 </div>
                 <button asp-action="Guardar" asp-controller="Mantenedor" type="submit" class="btn btn-primary">Guardar</button>
                 <p class="social-text">Regístrate Con Tus Redes Sociales</p>
@@ -147,4 +146,3 @@
     <script src="~/js/app.js"></script>
 </body>
 </html>
-
