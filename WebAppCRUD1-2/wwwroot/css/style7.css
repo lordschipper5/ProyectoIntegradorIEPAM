@@ -6,6 +6,9 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.zpacio {
+    padding: 5%;
+}
 
 .card {
     display: flex;
@@ -26,7 +29,8 @@
     padding: 30px 30px 10px 30px;
     border-radius: 20px;
     padding-bottom: 5%;
-    padding-top: 5%;
+    padding-top: 15%;
+    padding-right: 15%;
 }
 
 .card-header {
