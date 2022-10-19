@@ -1,13 +1,19 @@
 ﻿<Properties StartupConfiguration="{C486A7FE-2B43-4E09-B50B-95995CB862FF}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.WebAppCRUD1 PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="wwwroot/js/script_cursos.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Cursos/ContenidoCursos.cshtml">
     <Files>
       <File FileName="Models/CursosModel.cs" Line="21" Column="1" />
-      <File FileName="Views/Cursos/Cursos.cshtml" Line="41" Column="41" />
-      <File FileName="Views/Cursos/ContenidoCursos.cshtml" Line="13" Column="97" />
+      <File FileName="Views/Cursos/Cursos.cshtml" Line="9" Column="7" />
+      <File FileName="Views/Cursos/ContenidoCursos.cshtml" Line="55" Column="140" />
       <File FileName="Views/Login/Login.cshtml" Line="41" Column="55" />
       <File FileName="Controllers/HomeController.cs" Line="9" Column="1" />
-      <File FileName="Controllers/CursosController.cs" Line="40" Column="2" />
+      <File FileName="Controllers/CursosController.cs" Line="38" Column="10" />
       <File FileName="Models/UsuarioModel.cs" Line="17" Column="1" />
       <File FileName="Controllers/LoginController.cs" Line="47" Column="19" />
       <File FileName="Controllers/MantenedorController.cs" Line="33" Column="32" />
@@ -19,8 +25,7 @@
       <File FileName="Views/Shared/_Layout.cshtml" Line="42" Column="19" />
       <File FileName="Views/Mantenedor/Listar.cshtml" Line="25" Column="16" />
       <File FileName="Views/Cursos/AddCursos.cshtml" Line="6" Column="2" />
-      <File FileName="wwwroot/css/EmptyCSSFile.css" Line="105" Column="1" />
-      <File FileName="wwwroot/js/site (copy).js" Line="11" Column="1" />
+      <File FileName="wwwroot/css/style4.css" Line="9" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -32,6 +37,7 @@
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Cursos" expanded="True" />
+                <Node name="images" expanded="True" />
                 <Node name="Login" expanded="True" />
                 <Node name="Mantenedor" expanded="True" />
                 <Node name="Shared" expanded="True" />
@@ -49,10 +55,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

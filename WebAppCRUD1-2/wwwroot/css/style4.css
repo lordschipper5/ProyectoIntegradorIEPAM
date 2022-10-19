@@ -4,8 +4,9 @@
 
 body {
     padding: 20px;
-    background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(images/banner01.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url( https://i.blogs.es/88e43c/captura-de-pantalla-2021-10-20-a-las-9.39.51/1366_2000.webp);
     font-family: Georgia, serif;
+    text-align:center;
 }
 
 /* Header/Blog Title */

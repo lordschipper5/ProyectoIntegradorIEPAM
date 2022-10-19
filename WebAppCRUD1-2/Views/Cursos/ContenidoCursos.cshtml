@@ -1,53 +1,76 @@
 ﻿@model CursosModel
 @Html.ValidationSummary(false, "", new { @class = "text-danger" })
 @{
-    ViewData["Title"] = "ContenidoCurso";
+    ViewData["Title"] = "ContenidoCursos";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<link href="~/css/style4.css" rel="stylesheet" />
-<link rel="icon" href="~/images/NL.png">
 
-<div class="header">
-    <h2 style="color: white;"> DESAROLLO DE VIDEOJUEGOS</h2>
-    <iframe src="https://docs.google.com/document/d/1fu_T5qJZBZI-pgQ9w6v3rA4FhMIbjgpvATufINSfoZo/edit" style="width:100%; height:560px"></iframe>
-</div>
+<html lang="en">
+<head>
 
-<div class="row">
-    <div class="leftcolumn">
-        <div class="card">
-            <h2>¿Que es Unity?</h2>
-            <h5>En esta seccion aprenderas de los que es la herramienta de Unity.(14,10,2022)</h5>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/64d58efce2.js"
+            crossorigin="anonymous"></script>
+    <link rel="icon" href="https://nuevoleon.travel/wp-content/uploads/2019/11/ImagoNLE-700x582.png">
+    <link href="~/css/style4.css" rel="stylesheet" />
+    <link rel="icon" href="~/images/NL.png">
+    <title>Sign in & Sign up Form</title>
+</head>
 
-            <iframe width="420" height="315"
-                    src="https://www.youtube.com/embed/R-6q1GcE07o" frameborder="0" allowfullscreen>
-                >
-            </iframe>
-            <p>Some text..</p>
+<body style="background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url( https://i.blogs.es/88e43c/captura-de-pantalla-2021-10-20-a-las-9.39.51/1366_2000.webp); background-size:cover">
+    <div>
+        <div class="header">
+            <h2 style="color: white;"> DESAROLLO DE VIDEOJUEGOS</h2>
+            <iframe src="https://docs.google.com/document/d/1fu_T5qJZBZI-pgQ9w6v3rA4FhMIbjgpvATufINSfoZo/edit" style="width:100%; height:560px"></iframe>
         </div>
-        <div class="card">
-            <h2>¿Como empezar a hacer un videojuego? cap.1</h2>
-            <h5>Primeros pasos para la creacion de un videojuego. (14,10,2022)</h5>
-            <iframe width="420" height="315"
-                    src="https://www.youtube.com/embed/DB8DzSIqOHY" frameborder="0" allowfullscreen>
-                >
+
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="card">
+                    <h2>¿Que es Unity?</h2>
+                    <h5>En esta seccion aprenderas de los que es la herramienta de Unity.(14,10,2022)</h5>
+
+                    <iframe width="420" height="315"
+                            src="https://www.youtube.com/embed/R-6q1GcE07o" frameborder="0" allowfullscreen>
+                        >
+                    </iframe>
+                    <p>Some text..</p>
+                </div>
+                <div class="card">
+                    <h2>¿Como empezar a hacer un videojuego? cap.1</h2>
+                    <h5>Primeros pasos para la creacion de un videojuego. (14,10,2022)</h5>
+                    <iframe width="420" height="315"
+                            src="https://www.youtube.com/embed/DB8DzSIqOHY" frameborder="0" allowfullscreen>
+                        >
+                    </iframe>s
+
+
+                    <p>Some text..</p>
+                </div>
+            </div>
+            <div class="rightcolumn">
+                <div class="card">
+                    <h2>UNITY</h2>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Official_unity_logo.png" style="width:200px; height:87px">
+                </div>
+                <div class="card">
+                    <h3>Contenido Importante: </h3>
+                    <div class="fakeimg">Image "</div> <br>
+                    <div class="fakeimg">Image</div><br>
+                    <div class="fakeimg">Image</div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+        <div>
+            <h2 style="color: white;">VideoJuego: </h2>
+            <h5 style="color: white;">En esta seccion podras entrar al juego de ejemplo para el curso.</h5>
+            <iframe src="https://itch.io/embed/1752818" style="width:100%; height:auto">
+                <a href="https://lordschipper.itch.io/iepam-proyect">IEPAM Project + by Equipo5</a>
             </iframe>
-
-
-            <p>Some text..</p>
         </div>
     </div>
-    <div class="rightcolumn">
-        <div class="card">
-            <h2>UNITY</h2>
-            <img src="images/unity.png" width="300"
-                 height="250">
-        </div>
-        <div class="card">
-            <h3>Contenido Importante: </h3>
-            <div class="fakeimg">Image "</div> <br>
-            <div class="fakeimg">Image</div><br>
-            <div class="fakeimg">Image</div>
-        </div>
-    </div>
-</div>
+</body>
+</html>
