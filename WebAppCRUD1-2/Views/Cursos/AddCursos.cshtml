@@ -1,0 +1,35 @@
+﻿@model CursosModel
+@Html.ValidationSummary(false, "", new { @class = "text-danger" })
+@{
+    ViewData["Title"] = "AddCursos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="/AddcourseView/stylee.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <form id="paper" method="get" action="">
+
+            <div id="margin">Título : <input id="title" type="text" name="title"></div>
+            <textarea placeholder="Descripción del Curso..." id="text" name="text" rows="4"
+                      style="overflow: hidden; word-wrap: break-word; resize: none; height: 160px; "></textarea>
+            <br>
+            <input id="button" type="submit" value="Crear Curso">
+
+        </form>
+
+    </div>
+    <script src="/AddcourseView/scriptt.js"></script>
+</body>
+
+</html>
