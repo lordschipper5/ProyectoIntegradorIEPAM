@@ -18,7 +18,7 @@
 <body>
     <div class="atracito" style="display: flex; align-items: center; justify-content: center; flex-direction: column; min-height: 100vh; margin: 0;">
         <div class="courses-container">
-            <div class="course">
+            <div class="course" style="padding-top:0px">
                 <div class="course-preview">
                     <h6>Curso</h6>
                     <h2>DESAROLLO DE VIDEOJUEGOS</h2>
@@ -55,7 +55,7 @@
                 <a asp-action="ContenidoCursos" asp-controller="Cursos" class="btn">Empezar</a>
             </div>
         </div>*@
-        <a asp-action="AddCursos" asp-controller="Cursos" class="floating-btn">Agregar Curso</a>
+        <a style="bottom: 40px; background-color: #F3E5FF; color: #001F61; font-size: 30px; border: 1px solid #F3E5FF; " asp-action="AddCursos" asp-controller="Cursos" class="floating-btn">Agregar Curso</a>
 
         <script>function myFunction() {
                 const node = document.getElementById("demo");

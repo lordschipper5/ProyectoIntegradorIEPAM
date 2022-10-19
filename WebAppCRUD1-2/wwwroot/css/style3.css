@@ -214,16 +214,16 @@ body {
 
 .floating-btn {
     border-radius: 26.5px;
-    background-color: #001F61;
+    background-color: #F3E5FF;
     border: 1px solid #001F61;
     box-shadow: 0 16px 22px -17px #03153B;
     color: #fff;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 40px;
     line-height: 20px;
     padding: 12px 20px;
     position: fixed;
-    bottom: 20px;
+    bottom: 40px;
     right: 20px;
     z-index: 999;
 }

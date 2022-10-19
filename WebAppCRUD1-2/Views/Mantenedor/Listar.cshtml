@@ -27,16 +27,16 @@
             {
                 <tr>
                     <td> @item.nombre  </td>
-                    <td> @item.apellidop </td>
-                    <td> @item.apellidom </td>
+                    <td> @item.apellidop</td>
+                    <td> @item.apellidom</td>
                     <td> @item.edad </td>
                     <td> @item.email </td>
                     <td> @item.passw </td>
                     <td> @item.vali </td>
                     <td> @item.u_id </td>
 
-                    <td> <a asp-action="Editar" class="btn btn-secondary" asp-controller="Mantenedor" asp-route-IdAlumno="@item.u_id "><i class="bi bi-pencil-square"></i> Editar</a> </td>
-                    <td> <a asp-action="Eliminar" class="btn btn-danger" asp-controller="Mantenedor" asp-route-IdAlumno="@item.u_id "><i class="bi bi-x-square"></i> Eliminar</a> </td>
+                    <td> <a asp-action="Editar" class="btn btn-secondary" asp-controller="Mantenedor" asp-route-u_id="@item.u_id "><i class="bi bi-pencil-square"></i> Editar</a> </td>
+                    <td> <a asp-action="Eliminar" class="btn btn-danger" asp-controller="Mantenedor" asp-route-u_id="@item.u_id "><i class="bi bi-x-square"></i> Eliminar</a> </td>
                 </tr>
             }
         </tbody>

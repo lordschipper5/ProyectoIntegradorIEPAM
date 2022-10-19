@@ -29,8 +29,8 @@ namespace WebAppCRUD1.Datos
                         apellidop = dr["apellidop"].ToString(),
                         apellidom = dr["apellidom"].ToString(),
                         edad = Convert.ToInt32(dr["edad"]),
-                        email = dr["apellidom"].ToString(),
-                        passw = dr["apellidom"].ToString(),
+                        email = dr["email"].ToString(),
+                        passw = dr["passw"].ToString(),
                         vali = Convert.ToBoolean(dr["vali"]),
                         u_id = Convert.ToInt32(dr["u_id"])
                     });
