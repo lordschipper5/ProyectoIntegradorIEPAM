@@ -146,5 +146,17 @@ namespace WebAppCRUD1.Datos
             }
             return band;
         }
+
+        public bool AddCursos(CursosModel oAlumnocursos)
+        {
+            bool flag = false;
+            var con = new Conexion();
+            string spguardar = "CALL insert_course (" + "'" + oAlumnocursos.nombre_c + "','" + oAlumnocursos.descripcion + "','" + oAlumnocursos.email +  "')";
+            NpgsqlCommand com = new NpgsqlCommand(spguardar, con.OpenCon());
+            com.ExecuteNonQuery();
+            flag = true;
+            con.CloseCon();
+            return flag;
+        }
     }
 }

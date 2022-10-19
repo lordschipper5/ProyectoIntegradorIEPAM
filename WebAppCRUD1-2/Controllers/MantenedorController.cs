@@ -146,5 +146,20 @@ namespace WebAppCRUD1.Controllers
                 return View();
         }
 
+        public IActionResult AddCursos(CursosModel oAlumnocurso)
+        {
+            if (!ModelState.IsValid)
+                return View();
+
+            var resp = alumnodatos.AddCursos(oAlumnocurso);
+            if (resp)
+            {
+                return RedirectToAction("Cursos", "Cursos");
+            }
+            else
+            {
+                return View();
+            }
+        }
     }
 }

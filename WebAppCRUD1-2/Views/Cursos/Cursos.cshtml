@@ -37,7 +37,7 @@
                 </div>
             </div>
         </div>
-        <div id="demo" class="course">
+        @*<div id="demo" class="course">
             <div class="course-preview">
                 <h6>Curso Nuevo</h6>
                 <h2>[Agrega Nombre del Curso]</h2>
@@ -54,8 +54,8 @@
                 <h2>[Inserta Nombre del Capitulo]</h2>
                 <a asp-action="ContenidoCursos" asp-controller="Cursos" class="btn">Empezar</a>
             </div>
-        </div>
-        <button class="floating-btn" onclick="myFunction()">Agregar Curso</button>
+        </div>*@
+        <a asp-action="AddCursos" asp-controller="Cursos" class="floating-btn">Agregar Curso</a>
 
         <script>function myFunction() {
                 const node = document.getElementById("demo");
@@ -101,7 +101,7 @@
                 </ul>
             </div>
         </div>
-        <script src="~/js/app.js"></script>
+        @*<script src="~/js/app.js"></script>*@
     </div>
 </body>
 </html>

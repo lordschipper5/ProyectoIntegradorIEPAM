@@ -36,5 +36,10 @@ namespace WebAppCRUD1.Controllers
         {
             return View();
         }
+
+        public IActionResult AddCursos()
+        {
+            return View();
+        }
     }
 }

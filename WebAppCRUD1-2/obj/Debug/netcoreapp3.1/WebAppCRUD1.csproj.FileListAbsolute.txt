@@ -411,7 +411,6 @@ C:/Users/lords/OneDrive/Desktop/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/WebAppCRUD
 /Users/larome/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/WebAppCRUD1.dll
 /Users/larome/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/WebAppCRUD1.pdb
 /Users/larome/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/WebAppCRUD1.genruntimeconfig.cache
-/Users/larome/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/Razor/Views/Contacto/Contacto.cshtml.g.cs
 /Users/larome/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/Razor/Views/Equipo/Equipo.cshtml.g.cs
 /Users/larome/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/Razor/Views/Equipo/Equipo5.cshtml.g.cs
 C:/Users/lords/OneDrive/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/bin/Debug/netcoreapp3.1/appsettings.Development.json
@@ -564,3 +563,5 @@ C:/Users/andre/Source/Repos/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netc
 >>>>>>> a4dfb080db10609521dc2b26737a6a66e2ac9ddb
 C:/Users/lords/OneDrive/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/WebAppCRUD1.csproj.AssemblyReference.cache
 /Users/larome/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/Razor/Views/Mantenedor/Insertar.cshtml.g.cs
+/Users/larome/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/Razor/Views/Contacto.cshtml/Contacto.cshtml.g.cs
+/Users/larome/Documents/GitHub/ProyectoIntegradorIEPAM/WebAppCRUD1-2/obj/Debug/netcoreapp3.1/Razor/Views/Cursos/AddCursos.cshtml.g.cs
