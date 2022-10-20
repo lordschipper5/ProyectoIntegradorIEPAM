@@ -35,8 +35,8 @@
                     <td> @item.vali </td>
                     <td> @item.u_id </td>
 
-                    <td> <a asp-action="Editar" class="btn btn-secondary" asp-controller="Mantenedor" asp-route-u_id="@item.u_id "><i class="bi bi-pencil-square"></i> Editar</a> </td>
-                    <td> <a asp-action="Eliminar" class="btn btn-danger" asp-controller="Mantenedor" asp-route-u_id="@item.u_id "><i class="bi bi-x-square"></i> Eliminar</a> </td>
+                    <td> <a asp-action="Editar" class="btn btn-secondary" asp-controller="Mantenedor" asp-route-IdAlumno="@item.u_id "><i class="bi bi-pencil-square"></i> Editar</a> </td>
+                    <td> <a asp-action="Eliminar" class="btn btn-danger" asp-controller="Mantenedor" asp-route-IdAlumno="@item.u_id "><i class="bi bi-x-square"></i> Eliminar</a> </td>
                 </tr>
             }
         </tbody>

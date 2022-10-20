@@ -69,8 +69,8 @@ namespace WebAppCRUD1.Datos
                     oAlumno.apellidop = dr["apellidop"].ToString();
                     oAlumno.apellidom = dr["apellidom"].ToString();
                     oAlumno.edad = Convert.ToInt32(dr["edad"]);
-                    oAlumno.email = dr["apellidom"].ToString();
-                    oAlumno.passw = dr["apellidom"].ToString();
+                    oAlumno.email = dr["email"].ToString();
+                    oAlumno.passw = dr["passw"].ToString();
                     oAlumno.vali = Convert.ToBoolean(dr["vali"]);
                     oAlumno.u_id = Convert.ToInt32(dr["u_id"]);
 
